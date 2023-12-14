@@ -1,0 +1,35 @@
+.list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list__item{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.list__item:last-child .item__link{
+    padding-block: 23px;
+    padding-inline: 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; 
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    box-shadow: 4px 27px 51px 0px rgba(82, 197, 213, 0.53);
+}
+.item__link{
+    color: inherit;
+    text-decoration: none;
+}

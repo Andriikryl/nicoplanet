@@ -1,0 +1,14 @@
+
+.header__container{
+    padding-block: 23px;
+    max-width: 1680px;
+    margin-inline: auto;
+    border-bottom: 1px solid #FFFFFF;
+    padding-inline: 20px;
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
