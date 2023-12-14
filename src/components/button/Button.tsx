@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import Image from "next/image";
-interface ButtonProps {
-  text: string;
-}
+import { ButtonProps } from "../types/types";
 
 export default function Button({ text }: ButtonProps) {
   return (
