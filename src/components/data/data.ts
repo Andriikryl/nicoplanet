@@ -28,3 +28,34 @@ export const linksData = [
       href: "",
     },
   ];
+
+ export const socailGroupData = [
+    {
+      src: "/social/facebook.svg",
+      name: "facebook",
+      width: 24,
+      height: 24,
+      href: "",
+    },
+    {
+      src: "/social/insta.svg",
+      name: "inastagram",
+      width: 24,
+      height: 24,
+      href: "",
+    },
+    {
+      src: "/social/twitter.svg",
+      name: "twitter",
+      width: 24,
+      height: 24,
+      href: "",
+    },
+    {
+      src: "/social/youtub.svg",
+      name: "youtub",
+      width: 24,
+      height: 24,
+      href: "",
+    },
+  ];
