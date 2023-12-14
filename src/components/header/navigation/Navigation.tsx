@@ -1,37 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
-
-const linksData = [
-  {
-    name: "Home",
-    href: "",
-  },
-  {
-    name: "About",
-    href: "",
-  },
-  {
-    name: "Press",
-    href: "",
-  },
-  {
-    name: "Products",
-    href: "",
-  },
-  {
-    name: "Contact",
-    href: "",
-  },
-  {
-    name: "distribution",
-    href: "",
-  },
-  {
-    name: "BECOME DISTRIBUTOR",
-    href: "",
-  },
-];
+import { linksData } from "@/components/data/data";
 
 export default function Navigation() {
   return (
