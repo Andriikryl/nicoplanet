@@ -1,0 +1,20 @@
+.button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-block: 10px;
+    padding-inline: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 18px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #55FFE0 0%, #21AF85 100%);
+    box-shadow: 4px 27px 51px 0px rgba(82, 213, 134, 0.30);
+    border: none;
+    cursor: pointer;
+}

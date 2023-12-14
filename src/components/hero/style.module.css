@@ -1,0 +1,28 @@
+.hero{
+    margin-block-start: 100px;
+    margin-block-end: 242px;
+}
+
+.hero__title{
+    max-width: 705px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 107px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; 
+    letter-spacing: -3.21px;
+    text-transform: uppercase;
+    margin-block-end: 70px;
+}
+
+.hero__description{
+    max-width: 632px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-block-end: 135px;
+}
