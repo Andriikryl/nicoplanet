@@ -1,7 +1,8 @@
 .hero{
-    margin-block-start: 100px;
+    padding-block-start: 100px;
     margin-block-end: 242px;
 }
+
 
 .hero__container{
     max-width: 1680px;

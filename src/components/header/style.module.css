@@ -1,4 +1,7 @@
-
+.header{
+    position: relative;
+    z-index: 0;
+}
 .header__container{
     padding-block: 23px;
     max-width: 1680px;

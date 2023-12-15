@@ -103,3 +103,14 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+.bg{
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  background-image: url("/hero/bg.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}

@@ -8,6 +8,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className={styles.hero}>
+      <div className={styles.bg}></div>
       <Container className={styles.hero__container}>
         <div className={styles.hero__box}>
           <SocialGroup />
