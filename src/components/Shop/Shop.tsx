@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./style.module.css";
 import { Container } from "../container/Container";
 import ProductCard from "../productCard/ProductCard";
+import { poductData } from "../data/data";
+import Button from "../button/Button";
 
 export default function Shop() {
   return (
@@ -15,9 +17,43 @@ export default function Shop() {
             The product has a small white pouch with a long-lasting flavor and
             can be enjoyed for up to 45 minutes.≈
           </p>
-          <ul>
-            <li><ProductCard/></li>
+          <ul role="list" className={styles.card__box}>
+            {poductData.map(
+              (
+                {
+                  src,
+                  width,
+                  heigth,
+                  alt,
+                  acentTitle,
+                  title,
+                  description,
+                  amount,
+                  price,
+                },
+                index
+              ) => {
+                return (
+                  <li key={index}>
+                    <ProductCard
+                      src={src}
+                      width={width}
+                      height={heigth}
+                      alt={alt}
+                      acentTitle={acentTitle}
+                      title={title}
+                      description={description}
+                      amount={amount}
+                      price={price}
+                    />
+                  </li>
+                );
+              }
+            )}
           </ul>
+          <div className={styles.btn__box}>
+            <Button text="all PRODUCTS " />
+          </div>
         </div>
       </Container>
     </section>

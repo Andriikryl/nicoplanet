@@ -2,26 +2,35 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "./style.module.css";
+import { productCardPorps } from "../types/types";
 
-export default function ProductCard() {
+export default function ProductCard({
+  src,
+  width,
+  height,
+  alt,
+  acentTitle,
+  title,
+  description,
+  amount,
+  price,
+}: productCardPorps) {
   return (
     <article className={styles.card}>
       <Link href={"/"} className={styles.link}>
-        <Image src="/product/product.png" width={250} height={250} alt="" />
+        <Image src={src} width={width} height={height} alt={alt} />
       </Link>
       <h4 className={styles.card__title}>
-        <span className={styles.title__acsent}>planet</span>
-        Coconut Mercury
+        <span className={styles.title__acsent}>{acentTitle}</span>
+        {title}
       </h4>
-      <p className={styles.card__description}>
-        Just a crazy mint explosion followed by some satisfying freezing tickles
-      </p>
+      <p className={styles.card__description}>{description}</p>
       <div className={styles.price__info}>
         <p className={styles.amount}>
-          <span>Pieces in can: </span> <span>16 mg</span>
+          <span>Pieces in can: </span> <span>{amount}</span>
         </p>
         <p className={styles.price}>
-          <span>Price:</span> <span>2,20 €</span>
+          <span>Price:</span> <span>{price}</span>
         </p>
       </div>
     </article>

@@ -1,3 +1,6 @@
+.shop{
+    margin-block-end: 100px;
+}
 .shop__title{
     color: #FFF;
     text-align: center;
@@ -26,3 +29,14 @@
     margin-block-end: 58px;
 }
 
+.card__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin-block-end: 200px;
+}
+
+.btn__box{
+    width: max-content;
+    margin-inline: auto;
+}

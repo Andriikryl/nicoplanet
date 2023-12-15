@@ -59,3 +59,103 @@ export const linksData = [
       href: "",
     },
   ];
+
+  export const poductData = [
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+    {
+      src: "/product/product.png",
+      width: 250,
+      heigth: 250,
+      alt: "product",
+      title: "      Coconut Mercury",
+      acentTitle: "planet",
+      description:
+        "    Just a crazy mint explosion followed by some satisfying freezing tickles",
+      amount: "16 mg",
+      price: "2,20 € ",
+    },
+  ];
+  
