@@ -1,0 +1,28 @@
+.shop__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 52.8px */
+    letter-spacing: -1.44px;
+    text-transform: uppercase;
+    margin-block-end: 36px;
+    max-width: 711px;
+    margin-inline: auto;
+}   
+
+.shop__description{
+    max-width: 472px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-inline: auto;
+    margin-block-end: 58px;
+}
+
