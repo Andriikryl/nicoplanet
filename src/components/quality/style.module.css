@@ -1,0 +1,36 @@
+.quality{
+    margin-block-end: 200px;
+}
+.quality__box{
+    max-width: 635px;
+    margin-inline-start: auto;
+}
+.quality__title{
+    max-width: 635px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 63px */
+    letter-spacing: -2.1px;
+    text-transform: uppercase;
+    margin-block-end: 63px;
+}
+
+.quality__description{
+    max-width: 472px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.quality__description:nth-child(2){
+    margin-block-end: 36px;
+}
+.quality__description:nth-child(3){
+    margin-block-end: 90px;
+}
