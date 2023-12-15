@@ -3,6 +3,19 @@
     margin-block-end: 242px;
 }
 
+.hero__container{
+    max-width: 1680px;
+    margin-inline: auto;
+}
+
+.hero__text{
+    margin-inline-start: clamp(20px, 5vw + 2rem, 261px);
+}
+
+.hero__box{
+    display: flex;
+}
+
 .hero__title{
     max-width: 705px;
     color: #FFF;
