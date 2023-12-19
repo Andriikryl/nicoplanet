@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "@/components/hero/Hero";
 import Quality from "@/components/quality/Quality";
 import Shop from "@/components/Shop/Shop";
+import About from "@/components/about/About";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Quality />
       <Shop />
+      <About/>
     </>
   );
 }
