@@ -12,3 +12,13 @@ export interface ButtonProps {
     amount: string;
     price: string;
   }
+  export interface blogCardPorps {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+    title: string;
+    acentTitle: string;
+    description: string;
+    date: string;
+  }

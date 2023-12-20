@@ -1,0 +1,48 @@
+.card{
+    max-width: 350px;
+}
+.link{
+    display: block;
+   margin-block-end: 35px;
+}
+.card__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 22px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin-block-end: 15px;
+}
+.title__acsent{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    display: block;
+}
+.card__date{
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-block-end: 15px;
+}
+
+.card__description{
+    max-width: 291px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
