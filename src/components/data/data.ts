@@ -159,3 +159,38 @@ export const linksData = [
     },
   ];
   
+  export const blogCardData = [
+    {
+      src: "/blog/blog-card.png",
+      width: 350,
+      heigth: 350,
+      alt: "NIcoplanet",
+      title: "Pineapple Saturn",
+      acentTitle: "NIcoplanet",
+      description:
+        "Just a crazy mint explosion followed by some satisfying freezing tickles",
+      date: "13.12.2022",
+    },
+    {
+      src: "/blog/blog-card.png",
+      width: 350,
+      heigth: 350,
+      alt: "NIcoplanet",
+      title: "Pineapple Saturn",
+      acentTitle: "NIcoplanet",
+      description:
+        "Just a crazy mint explosion followed by some satisfying freezing tickles",
+      date: "13.12.2022",
+    },
+    {
+      src: "/blog/blog-card.png",
+      width: 350,
+      heigth: 350,
+      alt: "NIcoplanet",
+      title: "Pineapple Saturn",
+      acentTitle: "NIcoplanet",
+      description:
+        "Just a crazy mint explosion followed by some satisfying freezing tickles",
+      date: "13.12.2022",
+    },
+  ];
