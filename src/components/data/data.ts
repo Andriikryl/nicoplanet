@@ -194,3 +194,54 @@ export const linksData = [
       date: "13.12.2022",
     },
   ];
+
+  export const partnersData = [
+    {
+      src: "/partners/part-2.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-3.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-4.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-5.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-6.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-7.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-8.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+    {
+      src: "/partners/part-9.png",
+      width: 255,
+      height: 100,
+      alt: "",
+    },
+  ];

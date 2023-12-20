@@ -5,6 +5,7 @@ import Quality from "@/components/quality/Quality";
 import Shop from "@/components/Shop/Shop";
 import About from "@/components/about/About";
 import Blog from "@/components/blog/Blog";
+import Partners from "@/components/partners/Partners";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Shop />
       <About />
       <Blog />
+      <Partners/>
     </>
   );
 }

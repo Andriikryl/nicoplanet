@@ -1,0 +1,18 @@
+.partner__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 52.8px */
+    letter-spacing: -1.44px;
+    text-transform: uppercase;
+    margin-block-end: 50px;
+}
+.partner__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin-block-end: 200px;
+}
