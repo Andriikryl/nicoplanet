@@ -1,13 +1,29 @@
+"use client";
 import React from "react";
 import styles from "./style.module.css";
 import { Container } from "../container/Container";
 import ProductCard from "../productCard/ProductCard";
 import { poductData } from "../data/data";
 import Button from "../button/Button";
+import { motion } from "framer-motion";
+
+const XAnimations = {
+  hidden: { opacity: 0, x: 400 },
+  visible: (custom: number) => ({
+    opacity: 1,
+    x: 0,
+    transition: { delay: custom * 0.2, duration: 0.8 },
+  }),
+};
 
 export default function Shop() {
   return (
-    <section className={styles.shop}>
+    <motion.section
+      className={styles.shop}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2, once: true }}
+    >
       <Container>
         <div className={styles.shop__box}>
           <h3 className={styles.shop__title}>
@@ -34,7 +50,7 @@ export default function Shop() {
                 index
               ) => {
                 return (
-                  <li key={index}>
+                  <motion.li key={index} variants={XAnimations} custom={index}>
                     <ProductCard
                       src={src}
                       width={width}
@@ -46,7 +62,7 @@ export default function Shop() {
                       amount={amount}
                       price={price}
                     />
-                  </li>
+                  </motion.li>
                 );
               }
             )}
@@ -56,6 +72,6 @@ export default function Shop() {
           </div>
         </div>
       </Container>
-    </section>
+    </motion.section>
   );
 }
