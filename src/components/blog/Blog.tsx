@@ -1,13 +1,29 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 import styles from "./style.module.css";
 import { Container } from "../container/Container";
 import BlogCard from "../blogCard/BlogCard";
 import { blogCardData } from "../data/data";
 import Button from "../button/Button";
 
+const XAnimations = {
+  hidden: { opacity: 0, y: 400 },
+  visible: (custom: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: custom * 0.2, duration: 0.8 },
+  }),
+};
+
 export default function Blog() {
   return (
-    <section className={styles.blog}>
+    <motion.section
+      className={styles.blog}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.2, once: true }}
+    >
       <Container>
         <div className={styles.blog__box}>
           <h3 className={styles.blog__title}>Blog</h3>
@@ -25,7 +41,7 @@ export default function Blog() {
               index
             ) => {
               return (
-                <li key={index}>
+                <motion.li key={index} variants={XAnimations} custom={index}>
                   <BlogCard
                     src={src}
                     width={width}
@@ -36,7 +52,7 @@ export default function Blog() {
                     description={description}
                     date={date}
                   />
-                </li>
+                </motion.li>
               );
             }
           )}
@@ -45,6 +61,6 @@ export default function Blog() {
           <Button text="all PRODUCTS " />
         </div>
       </Container>
-    </section>
+    </motion.section>
   );
 }
