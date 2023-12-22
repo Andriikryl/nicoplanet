@@ -1,3 +1,6 @@
+.partners{
+    margin-block-end: 100px;
+}
 .partner__title{
     color: #FFF;
     text-align: center;
@@ -14,5 +17,40 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;
-    margin-block-end: 200px;
+    margin-block-end: 60px;
+    padding-block-end: 58px;
+    border-bottom: 1px solid hsl(0, 0%, 100%, .2);
+}
+
+.partner__secTitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 52.8px */
+    letter-spacing: -1.44px;
+    text-transform: uppercase;
+    max-width: 861px;
+    margin-inline: auto;
+    margin-block-end: 36px;
+}
+
+.partner__description{
+    max-width: 472px;
+    margin-inline: auto;
+    margin-block-end: 46px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.btn__box{
+    width: max-content;
+    margin-inline: auto;
 }

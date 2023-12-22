@@ -6,6 +6,7 @@ import Shop from "@/components/Shop/Shop";
 import About from "@/components/about/About";
 import Blog from "@/components/blog/Blog";
 import Partners from "@/components/partners/Partners";
+import Map from "@/components/map/Map";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       <Shop />
       <About />
       <Blog />
-      <Partners/>
+      <Partners />
+      <Map />
     </>
   );
 }

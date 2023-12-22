@@ -1,0 +1,8 @@
+.map{
+    width: 100dvw;
+    height: 600px;
+    background-image: url("/map/map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
